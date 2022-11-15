@@ -1,0 +1,27 @@
+{
+  "name": "mfe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lerna-init": "lerna init",
+    "lerna-create": "lerna create hello-world"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lokeshkandala/mfe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lokeshkandala/mfe/issues"
+  },
+  "homepage": "https://github.com/lokeshkandala/mfe#readme",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.0.3"
+  }
+}
